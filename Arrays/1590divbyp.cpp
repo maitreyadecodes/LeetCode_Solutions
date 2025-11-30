@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+using namespace std;
+
 class Solution {
 public:
     int minSubarray(vector<int>& nums, int p) {
