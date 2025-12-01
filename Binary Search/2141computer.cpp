@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 
 class Solution {
@@ -19,7 +21,7 @@ public:
                 can_use += min((long long)b, mid);
             }
             
-            if (can_use >= mid * n) {
+            if (can_use >= mid * (long long)n) {
                 left = mid;
             } else {
                 right = mid - 1;
